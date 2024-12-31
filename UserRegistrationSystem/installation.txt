@@ -1,0 +1,6 @@
+1.install XAMPP with MYSQL and APACHE Server
+2.Open XAMPP Shell.
+3.type "mysql -u root -p" command, if it asks for password and your password is blank by default just press enter.
+4.run source (your project directory and sql file in project)"C:/xampp/htdocs/project/"sql/setup.sql;
+5.If you have logged in without any problems and the code above gives an error, try writing it once more or you can create the same database yourself.
+5.Test if succesfully created write "USE KullaniciSistemi;" and "SHOW TABLES;"
